@@ -1,0 +1,263 @@
+.shop-container{
+    margin-top:30px;
+    margin-left:50px;
+   
+}
+.products{
+   display:grid;
+   grid-template-columns: repeat(4, 15rem);
+   
+}
+.product{
+ border-radius: 15px;
+ max-width: 200px;
+ 
+}
+.product img {
+    border:1px solid black;
+    width: 200px;
+    height:200px;
+    border-radius: 15px;
+}
+.product, .discription{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.Sylo-offers{
+    color:firebrick;
+    text-align: center;
+}
+.Sylo-offers p{
+    color:black;
+}
+.celebration-plans{
+    display:grid;
+    grid-template-columns: repeat(3, 10rem);
+    gap:50px;
+    position:absolute;
+}
+.plans,.plans1,.plans2,.plans3,.plans4,.plans5{
+   text-align: center;
+    color: whitesmoke;
+    border:1px solid firebrick;
+    border-radius: 10px;
+    height:100px;
+    width:200px;
+    padding-top:60px;
+}
+.plans{
+    background-color: rgba(120, 190, 34, 0.767);
+}
+.plans1{
+    background-color: rgb(165, 127, 30);
+}
+.plans2{
+    background-color: rgb(44, 117, 190);
+}
+.plans3{
+    background-color: rgb(174, 146, 111);
+}
+.plans4{
+    background-color: rgb(59, 154, 157);
+}
+.plans5{
+    background-color: rgb(89, 78, 167);
+}
+button{
+    margin-top:55px;
+    height:30px;
+    width:150px;
+    border-radius: 10px;
+    background-color:rgb(153, 41, 41);
+    color: whitesmoke;
+}
+.text{
+    margin-bottom:30%;
+}
+.cafes{
+  margin-top:20px;
+ display: flex;
+ gap:30px;
+}
+.venues{
+    margin-top:50px;
+    text-align:center;
+}
+.cafes-image img{
+    border:1px solid black;
+    width: 200px;
+    height:250px;
+    border-radius: 15px;
+}
+.rate{
+    padding-left:30px;
+}
+.rating{
+    border:1px solid green;
+    width:30px;
+    text-align: center;
+    color:whitesmoke;
+    background-color: green;
+    border-radius: 5px;  
+}
+.cafeName{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.cafe-description{
+    text-align: center;
+    color:rgb(138, 128, 128);
+    
+}
+.popular-cafes{
+    display:grid;
+}
+.budget{
+    margin-top:30px;
+}
+.popular-cafes{
+    margin-top:20px;
+    display:grid;
+    gap:20px;
+}
+.budget-image img{
+    border:1px solid black;
+    width: 200px;
+    height:150px;
+    border-radius: 15px;
+}
+.slider-container img{
+    width:55%;
+    border-radius: 10px;  
+}
+.slider-container{
+    position:relative;
+    margin:50px 0 0 50px;  
+}
+.slider-container .slider-text  img{
+    display:flex;
+    flex-direction: row;
+}
+.slider-text{
+   position:absolute; 
+   color: whitesmoke;
+   margin:8% 0  0 0%;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.info{
+    background-color:rgba(239, 229, 229, 0.422); 
+    border-radius:10px;
+    width:35%; 
+    margin-left: 10%; 
+}
+.claim{
+    background-color: rgba(116, 90, 41, 0.537);
+    width:100px;
+    margin-top:25px;
+}
+.Zomato{
+    background-color: rgba(255, 255, 255, 0.726);
+    color:black;
+    text-align:center;
+    font-size:20px;
+    width:300px;
+    border-radius: 10px;
+    margin-left:12%;
+    margin-top: 2%;
+    
+}
+.zomto{
+    margin: 15px ;
+    background-color: firebrick;
+    border:1px solid red;
+   color: whitesmoke;
+    align-items: center;
+    border-radius:20px;
+}
+.off{
+    font-size: 25px;
+}
+.Resturant{
+    font-size:14px;
+    color:rgba(138, 128, 128, 0.788);
+   
+}
+.shopping{
+    margin:2% 0 0 30%;
+    text-align: center;
+    color: black;
+}
+.today{
+    font-size:26px ;
+    font-weight: 100;
+}
+.deal{
+    color: red;
+    font-weight:900;
+    font-size:35px;
+}
+.save{
+    color: rgba(178, 34, 34, 0.742);
+}
+.vacation{
+    margin:10% 0 0 1%;
+    text-align: center;
+    background-color: rgba(130, 164, 164, 0.338);
+    border-radius:5px;
+}
+.slider-container {
+    display: flex;
+    overflow: hidden;
+   width: 100%;
+  }
+  
+  .slider-track {
+    display: flex;
+    flex: 0 0 60%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider {
+    flex: 0 0 100% ; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .active-dot {
+    background-color: blue;
+  }
+  .app-container{
+    margin:50px 0 0 0;
+  }
+ .arrow{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: rgba(95, 158, 160, 0.806);
+   border-color: aliceblue;
+   font-size: 20px;
+   cursor: pointer;
+ }
+
+ 
+  

@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Navbar{
+    background-color: cornflowerblue;
+    height:60px;
+}
+.links{
+ font-size: 25px;
+ color:white;
+ display:flex;
+ justify-content: flex-end;
+ align-items: center;
+ gap: 30px;
+}
+.links{
+padding-top:15px;
+ margin-right: 100px;
+ display: flex;
+ 
+}
+.links i, .shop{
+    display: flex;
+    color: whitesmoke;
+    text-decoration: none;  
+}
+.shop-title{
+    color:black;
+}
+body{
+    color: black;
+}
